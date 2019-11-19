@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(233, 235, 238);
+}
+
+.profileCover {
+    width: 850px;
+}
+
+.banner {
+    background-color: #4267b2;
+    height: 250px
+}
