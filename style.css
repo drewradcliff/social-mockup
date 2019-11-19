@@ -2,11 +2,12 @@ body {
     background-color: rgb(233, 235, 238);
 }
 
-.profileCover {
+header {
     width: 850px;
+    margin: 0 auto;
 }
 
 .banner {
     background-color: #4267b2;
-    height: 250px
+    height: 250px;
 }
