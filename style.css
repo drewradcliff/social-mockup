@@ -11,3 +11,18 @@ header {
     background-color: #4267b2;
     height: 250px;
 }
+
+.timeline {
+    background: white;
+    height: 50px;
+}
+
+.profileImage {
+    background-color: #4267b2;
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -115px;
+    left: 15px;
+}
