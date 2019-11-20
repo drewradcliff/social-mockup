@@ -17,10 +17,11 @@ header {
 }
 
 .pageName {
-    position: absolute;
+    position: relative;
     top: 190px;
     left: 190px;
     color: white;
+
 }
 
 .pageName h1 {
@@ -34,6 +35,17 @@ header {
     font-weight: normal;
 }
 
+.actions {
+    position: relative;
+    left: 600px;
+    top: 145px;
+}
+
+button {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .timeline {
     background: white;
     height: 50px;
@@ -45,6 +57,10 @@ header {
     height: 150px;
     width: 150px;
     position: relative;
-    top: -115px;
     left: 15px;
+    bottom: 115px;
+}
+
+.timelineButtons {
+    
 }
