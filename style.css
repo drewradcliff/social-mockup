@@ -1,4 +1,4 @@
-:root {
+* {
     font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
 }
 
@@ -65,7 +65,7 @@ button {
 .timelineButtons {
     position: relative;
     bottom: 152px;
-    left: 200px;
+    left: 175px;
 }
 
 .timelineButtons button {
