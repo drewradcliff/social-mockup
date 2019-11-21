@@ -1,9 +1,11 @@
-* {
+:root {
     font-family: system-ui, -apple-system, system-ui, ".SFNSText-Regular", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(233, 235, 238);
+    margin: 0;
 }
 
 header {
@@ -17,11 +19,12 @@ header {
 }
 
 .pageName {
-    position: relative;
+    position: fixed;
     top: 190px;
-    left: 190px;
+    left: 320px;
     color: white;
-
+    max-width: 300px;
+    margin-right: 0px;
 }
 
 .pageName h1 {
@@ -36,9 +39,10 @@ header {
 }
 
 .actions {
-    position: relative;
-    left: 600px;
-    top: 145px;
+    position: fixed;
+    left: 750px;
+    top: 210px;
+    width: 250px;
 }
 
 button {
@@ -57,15 +61,15 @@ button {
     border: solid 1px black;
     height: 150px;
     width: 150px;
-    position: relative;
-    left: 15px;
-    bottom: 115px;
+    position: fixed;
+    left: 150px;
+    top: 110px;
 }
 
 .timelineButtons {
-    position: relative;
-    bottom: 152px;
-    left: 175px;
+    position: fixed;
+    top: 250px;
+    left: 310px;
 }
 
 .timelineButtons button {
@@ -77,4 +81,45 @@ button {
     border-bottom: none;
     border-left: none;
     height: 50px;
+}
+
+main {
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.leftContentColumn {
+    width: 328px;
+    margin-right: 10px;
+    float: left;
+}
+
+.aboutPage {
+    background-color: white;
+    padding-top: 20px;
+}
+
+.aboutContent {
+    border: solid 1px  rgb(233, 235, 238);;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+.aboutContent p {
+    margin: 5px;
+}
+
+.aboutPage h2 { margin: 0; font-size: 16px;}
+
+.aboutPage .aboutLink{padding: 10px;}
+
+.rightContentColumn {
+    width: 512px;
+    float: left;
+}
+
+.wallPost {
+    background-color: white;
 }
