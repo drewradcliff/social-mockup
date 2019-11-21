@@ -19,9 +19,9 @@ header {
 }
 
 .pageName {
-    position: fixed;
+    position: relative;
     top: 190px;
-    left: 320px;
+    left: 210px;
     color: white;
     max-width: 300px;
     margin-right: 0px;
@@ -39,9 +39,9 @@ header {
 }
 
 .actions {
-    position: fixed;
-    left: 750px;
-    top: 210px;
+    position: relative;
+    left: 600px;
+    top: 150px;
     width: 250px;
 }
 
@@ -61,22 +61,21 @@ button {
     border: solid 1px black;
     height: 150px;
     width: 150px;
-    position: fixed;
-    left: 150px;
-    top: 110px;
+    position: relative;
+    left: 30px;
+    top: -130px;
 }
 
 .timelineButtons {
-    position: fixed;
-    top: 250px;
-    left: 310px;
+    position: relative;
+    top: -152px;
+    left: 190px;
 }
 
 .timelineButtons button {
     padding: 10px 20px 10px 20px;
     font-size: 16px;
     font-weight: normal;
-    float: left;
     border-top: none;
     border-bottom: none;
     border-left: none;
@@ -86,7 +85,7 @@ button {
 main {
     width: 850px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .leftContentColumn {
